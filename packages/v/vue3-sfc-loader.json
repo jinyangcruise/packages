@@ -1,0 +1,32 @@
+{
+  "name": "vue3-sfc-loader",
+  "filename": "vue3-sfc-loader.js",
+  "description": "Vue3/Vue2 Single File Component loader",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FranckFreiburger/vue3-sfc-loader.git"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/FranckFreiburger/vue3-sfc-loader",
+  "keywords": [
+    "vue",
+    "sfc"
+  ],
+  "autoupdate": {
+    "source": "npm",
+    "target": "vue3-sfc-loader",
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "*.js"
+        ]
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Franck Freiburger"
+    }
+  ]
+}
